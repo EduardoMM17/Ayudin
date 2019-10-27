@@ -43,10 +43,10 @@ RM = /opt/clion-2019.2.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1
+CMAKE_SOURCE_DIR = /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyectoparte1.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/Proyectoparte1.dir/flags.make
 
 CMakeFiles/Proyectoparte1.dir/main.cpp.o: CMakeFiles/Proyectoparte1.dir/flags.make
 CMakeFiles/Proyectoparte1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyectoparte1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyectoparte1.dir/main.cpp.o -c /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyectoparte1.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyectoparte1.dir/main.cpp.o -c /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/main.cpp
 
 CMakeFiles/Proyectoparte1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyectoparte1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/main.cpp > CMakeFiles/Proyectoparte1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/main.cpp > CMakeFiles/Proyectoparte1.dir/main.cpp.i
 
 CMakeFiles/Proyectoparte1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyectoparte1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/main.cpp -o CMakeFiles/Proyectoparte1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/main.cpp -o CMakeFiles/Proyectoparte1.dir/main.cpp.s
 
 CMakeFiles/Proyectoparte1.dir/menu.cpp.o: CMakeFiles/Proyectoparte1.dir/flags.make
 CMakeFiles/Proyectoparte1.dir/menu.cpp.o: ../menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyectoparte1.dir/menu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyectoparte1.dir/menu.cpp.o -c /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyectoparte1.dir/menu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyectoparte1.dir/menu.cpp.o -c /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/menu.cpp
 
 CMakeFiles/Proyectoparte1.dir/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyectoparte1.dir/menu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/menu.cpp > CMakeFiles/Proyectoparte1.dir/menu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/menu.cpp > CMakeFiles/Proyectoparte1.dir/menu.cpp.i
 
 CMakeFiles/Proyectoparte1.dir/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyectoparte1.dir/menu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/menu.cpp -o CMakeFiles/Proyectoparte1.dir/menu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/menu.cpp -o CMakeFiles/Proyectoparte1.dir/menu.cpp.s
 
 CMakeFiles/Proyectoparte1.dir/preguntar.cpp.o: CMakeFiles/Proyectoparte1.dir/flags.make
 CMakeFiles/Proyectoparte1.dir/preguntar.cpp.o: ../preguntar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyectoparte1.dir/preguntar.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyectoparte1.dir/preguntar.cpp.o -c /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/preguntar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyectoparte1.dir/preguntar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyectoparte1.dir/preguntar.cpp.o -c /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/preguntar.cpp
 
 CMakeFiles/Proyectoparte1.dir/preguntar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyectoparte1.dir/preguntar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/preguntar.cpp > CMakeFiles/Proyectoparte1.dir/preguntar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/preguntar.cpp > CMakeFiles/Proyectoparte1.dir/preguntar.cpp.i
 
 CMakeFiles/Proyectoparte1.dir/preguntar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyectoparte1.dir/preguntar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/preguntar.cpp -o CMakeFiles/Proyectoparte1.dir/preguntar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/preguntar.cpp -o CMakeFiles/Proyectoparte1.dir/preguntar.cpp.s
 
 CMakeFiles/Proyectoparte1.dir/leer.cpp.o: CMakeFiles/Proyectoparte1.dir/flags.make
 CMakeFiles/Proyectoparte1.dir/leer.cpp.o: ../leer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyectoparte1.dir/leer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyectoparte1.dir/leer.cpp.o -c /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/leer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyectoparte1.dir/leer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyectoparte1.dir/leer.cpp.o -c /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/leer.cpp
 
 CMakeFiles/Proyectoparte1.dir/leer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyectoparte1.dir/leer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/leer.cpp > CMakeFiles/Proyectoparte1.dir/leer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/leer.cpp > CMakeFiles/Proyectoparte1.dir/leer.cpp.i
 
 CMakeFiles/Proyectoparte1.dir/leer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyectoparte1.dir/leer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/leer.cpp -o CMakeFiles/Proyectoparte1.dir/leer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/leer.cpp -o CMakeFiles/Proyectoparte1.dir/leer.cpp.s
 
 # Object files for target Proyectoparte1
 Proyectoparte1_OBJECTS = \
@@ -125,7 +125,7 @@ Proyectoparte1: CMakeFiles/Proyectoparte1.dir/preguntar.cpp.o
 Proyectoparte1: CMakeFiles/Proyectoparte1.dir/leer.cpp.o
 Proyectoparte1: CMakeFiles/Proyectoparte1.dir/build.make
 Proyectoparte1: CMakeFiles/Proyectoparte1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Proyectoparte1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Proyectoparte1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyectoparte1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/Proyectoparte1.dir/clean:
 .PHONY : CMakeFiles/Proyectoparte1.dir/clean
 
 CMakeFiles/Proyectoparte1.dir/depend:
-	cd /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1 /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1 /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/cmake-build-debug /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/cmake-build-debug /home/eduardo/Desktop/Utec/mentoriaPoo1/Proyectoparte1/cmake-build-debug/CMakeFiles/Proyectoparte1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/cmake-build-debug /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/cmake-build-debug /home/eduardo/Desktop/Utec/mentoriaPoo1/ayudaMentees/cmake-build-debug/CMakeFiles/Proyectoparte1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyectoparte1.dir/depend
 
