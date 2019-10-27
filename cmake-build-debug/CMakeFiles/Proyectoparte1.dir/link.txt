@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Proyectoparte1.dir/main.cpp.o CMakeFiles/Proyectoparte1.dir/menu.cpp.o CMakeFiles/Proyectoparte1.dir/preguntar.cpp.o CMakeFiles/Proyectoparte1.dir/leer.cpp.o  -o Proyectoparte1 
